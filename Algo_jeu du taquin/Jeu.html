@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <meta charset="UTF-8">
+    <title>Jeu du Taquin</title>
+</head>
+<body>
+    <h1>Jeu du Taquin</h1>
+    <table class="tabcenter" >
+        <tr>
+            <td id="cell1"></td>
+            <td id="cell2"></td>
+            <td id="cell3"></td>
+        </tr>
+        <tr>
+            <td id="cell4"></td>
+            <td id="cell5"></td>
+            <td id="cell6"></td>
+        </tr>
+        <tr>
+            <td id="cell7"></td>
+            <td id="cell8"></td>
+            <td id="cell9"></td>
+        </tr>
+    </table>
+
+    <div class="permut">
+
+    </div>
+
+    <div class="button">
+        <button onClick="initialPos()">Initial position</button>
+        <button onClick="randomPosition()">Shuffle</button>
+        <button>Solution</button>
+    </div>
+</body>
+
+<!-- SCRIPT -->
+<script 
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous">
+</script>
+<script src="algo.js"></script>
+<!-- SCRIPT -->
+
+</html>
